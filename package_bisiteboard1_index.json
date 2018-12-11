@@ -1,0 +1,61 @@
+{
+  "packages":
+  [
+    {
+      "name": "Bisituino",
+      "maintainer": "Marcel Vicente",
+      "websiteURL": "none",
+      "help":
+      {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms":
+      [
+        {
+          "name": "Bisite development board",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "file://C:/Users/bisite/Documents/criptochip/bisiteboard/Bisiteboard-1.0.0.zip",
+          "archiveFileName": "Bisiteboard-1.0.0.zip",
+          "checksum": "SHA-256:e898d2145233c67722f3b100b515d5b5b46a5d2794fccd67144ad398310e2cb0",
+          "size": "3347254",
+          "boards": [
+    {
+      "name": "Bisite board"
+    },
+       {
+              "name": "Falcon 2"
+            }  
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
